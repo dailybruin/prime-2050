@@ -1,15 +1,22 @@
-.img-bg{
+
+
+#slide-2 .img-bg {
+	background-image:url(../assets/img/ladrawing2.jpg);
+	background-size: cover;
+	z-index:-2;
 	position:fixed;
 	top:0;
 	left:0;
 	width:100%;
 	height:100%;
 }
-
-.img-bg{
-	background: url(../assets/img/ladrawing2.jpg);
-	background-size: cover;
-	z-index:-2;
+#slide-2 .hsContent {
+    margin-left: -450px;
+    top: auto;
+}
+#slide-2 h2 {
+    position: fixed;
+    top: 70%;
 }
 
 .blue-bg{
