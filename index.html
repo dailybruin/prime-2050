@@ -31,9 +31,11 @@
 		</header>
 
 		<div id="container">
-			<div id = "sub-container">
+			<div id="sub-header">
 				<p>Before there is any discussion on the future of sustainability, there is one premise that must be undeniably accepted: Within our generation, humankind will experience the consequences of global warming.</p>
 				<p>The science is sound.</p>
+			</div>
+			<div id = "sub-container">
 				<p>Nearly all climate scientists – 97 percent – agree that global warming is occurring and will continue to occur, and the question has now shifted from “How do we stop this?” to “How do we live with this?”</p>
 				<p>“Thriving in a Hotter Los Angeles” is UCLA’s answer.</p>
 				<p>The university has essentially taken a who’s who of people that did better than you in class and streamlined them into a team of talented researchers focused on “achieving 100 percent sustainability in energy, water and biodiversity by 2050” in Los Angeles.</p>
@@ -94,6 +96,19 @@
 
 			$("header").css('opacity', 1.2 - scroll_ratio);
 			$("#sub-header").css('opacity', 1.5 - scroll_ratio);
+
+			
+			if($("#sub-header").offset().top - scroll_position < 0) {
+				$("#sub-header").css("z-index", "-1");
+				$("#sub-header").css("width", "inherit");
+				$("#sub-header").css("position", "fixed");
+
+				$("#sub-header").css('top', -15 * scroll_ratio);
+			}
+
+			if ($("#sub-header").css('opacity') >= 0.5) {
+				$("#sub-header").css("position", "relative");
+			}
 
 		}
 
