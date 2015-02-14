@@ -8,7 +8,7 @@
 
 .img-bg{
 	background: url(../assets/img/ladrawing.jpg);
-	background-size:cover;
+	
 	z-index:-2;
 }
 
@@ -52,5 +52,5 @@
 }
 
 #back a {
-	color: navy;
+	color: black;
 }
