@@ -1,0 +1,56 @@
+.img-bg{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.img-bg{
+	background: url(../assets/img/ladrawing.jpg);
+	background-size:cover;
+	z-index:-2;
+}
+
+#container {
+	margin: 0 auto;
+	width: 70vw;
+}
+
+#sub-header {
+	color: black;
+	font-size: 2em;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-size: 22px;
+	height: 100vh;
+	padding-top: 26vh;
+	margin: auto;
+	text-align: center;
+}
+
+#sub-container {
+	margin-top: 100vh;
+	padding: 30px;
+	background-color: #f6f6f6;
+	margin-bottom: 10px;
+	color: black;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-weight:lighter;
+}
+
+#meta {
+	width: 40vw;
+	float: right;
+	margin-top: 5vh;
+	margin-right: 12vw;
+}
+
+#back {
+	height: 20px;
+	background-color: rgb(255, 255, 255, 0.8);
+}
+
+#back a {
+	color: navy;
+}
