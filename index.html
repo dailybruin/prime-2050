@@ -94,8 +94,9 @@
 			var	client_height = $(window).height();
 			var	scroll_ratio = scroll_position / client_height;
 
-			$("header").css('opacity', 1.2 - scroll_ratio);
+			$("header").css('opacity', 1-scroll_ratio);
 			$("#sub-header").css('opacity', 1.5 - scroll_ratio);
+			$("img-bg").css('opacity', 1.5 - scroll_ratio);
 
 			
 			if($("#sub-header").offset().top - scroll_position < 0) {
