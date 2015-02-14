@@ -8,8 +8,15 @@
 
 .img-bg{
 	background: url(../assets/img/ladrawing.jpg);
-	
+	background-size:cover;
 	z-index:-2;
+}
+
+.blue-bg{
+	padding-top: 40vh;
+	text-align: center;
+	background: blue;
+	z-index:-3;
 }
 
 #container {
@@ -41,7 +48,7 @@
 
 #meta {
 	width: 40vw;
-	float: right;
+
 	margin-top: 5vh;
 	margin-right: 12vw;
 }
