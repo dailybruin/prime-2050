@@ -47,10 +47,18 @@
 }
 
 #meta {
-	width: 40vw;
+	/*width: 60vw; */
+	/*margin-left: 500px;*/
+	/*margin-right: auto;*/
+	/*margin-top: 5vh; */
+	/*margin-right: 12vw; */
+	text-align: center;
+}
 
-	margin-top: 5vh;
-	margin-right: 12vw;
+#meta2 {
+	margin-right: 150px;
+	float: right;
+	font-family: "Lato", sans-serif;
 }
 
 #back {
