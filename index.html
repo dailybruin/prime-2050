@@ -80,13 +80,10 @@
 			</div>
 		</div>
 		<div>
-			<section id="slide-3" class="homeSlide">
-			<div class="img-bg" 
-					data-0="top:0px;" 		
-					data-600="top: -300px;" "height", "100%">
-			</div>
+			<div class="img-bg" data-0="top:0px" 		
+					data-600="top: -300px">
 
-			</section>
+			</div>
 		</div>
 	</body>
 
@@ -102,9 +99,9 @@
 			var	client_height = $(window).height();
 			var	scroll_ratio = scroll_position / client_height;
 
-			$("header").css('opacity', 1-scroll_ratio);
-			$("#sub-header").css('opacity', 1.5 - scroll_ratio);
-			$("img-bg").css('opacity', 1.5 - scroll_ratio, "height", "100%");
+			$("header").css('opacity', 2-scroll_ratio);
+			$("#sub-header").css('opacity', 2 - scroll_ratio);
+			$("img-bg").css('opacity', 2 - scroll_ratio);
 
 		}
 

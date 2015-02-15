@@ -1,13 +1,18 @@
 
-#slide-3 .img-bg {
-	background-image:url(../assets/img/ladrawing2.jpg);
-	background-size:cover;
+.img-bg {
+	background:url(../assets/img/ladrawing2.jpg) no-repeat;
+	/*height:2000px;*/
+	height:150%;
+	width:100%;
+	background-size: cover;
+	
+	
 	z-index:-2;
 	position:fixed;
 	top:0;
 	left:0;
-	width:100%;
-	height:100%; 
+	/*width:1500px;*/
+	
 }
 
 #slide-2 h2 {
