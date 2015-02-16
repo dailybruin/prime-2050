@@ -34,7 +34,7 @@
 
 #container {
 	margin: 0 auto;
-	width: 70vw;
+	max-width: 1000px;
 }
 
 #top-sub-container {
