@@ -38,7 +38,7 @@
 }
 
 #top-sub-container {
-	margin-top: 30vh;
+	margin-top: 50vh;
 	padding: 30px;
 	background-color: rgba(246,246,246,0.85);
 	color: black;
@@ -57,7 +57,7 @@
 }
 
 #last-sub-container {
-	margin-bottom: 1200px;
+	margin-bottom: 800px;
 	padding: 30px;
 	background-color: rgba(246,246,246,0.85);
 	color: black;
@@ -67,8 +67,14 @@
 }
 
 #inner-sub-container {
-	padding: 30px;
+	padding: 10px;
+	background-color: rgba(246,246,246,0.85);
+	color: black;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-weight:lighter;
+	font-size: 10;
 }
+
 
 #meta {
 	/*width: 60vw; */
