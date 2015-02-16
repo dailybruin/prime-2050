@@ -87,7 +87,7 @@
 
 #back {
 	height: 20px;
-	background-color: rgb(255, 255, 255, 0.8);
+	/*background-color: rgb(255, 255, 255, 0.8);*/
 }
 
 #back a {
@@ -104,14 +104,18 @@
 }
 
 #cf:hover img.top{
-	opacity:1;
+	opacity:0.9;
+}
+
+#cf:hover img.bottom {
+
 }
 
 #cf img.bottom {
   position:absolute;
   left:0;
   opacity: 1; 
-  z-index: -1;
+  z-index: 0;
 
   
 }
