@@ -1,4 +1,10 @@
 
+#chart {
+	margin-right: 10px;
+	width: 40%;
+	float: left;
+}
+
 .top, .bottom{
 	width: 100%;
 }
