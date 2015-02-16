@@ -1,4 +1,8 @@
 
+.top, .bottom{
+	width: 100%;
+}
+
 .img-bg {
 	background:url(../assets/img/ladrawing2.jpg) no-repeat;
 	/*height:2000px;*/
@@ -65,4 +69,25 @@
 
 #back a {
 	color: black;
+}
+
+
+#cf {
+  position:relative;
+  width: 100%
+  margin:0 auto; 
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  opacity: 1; 
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
 }
